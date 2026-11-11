@@ -7,10 +7,10 @@ Seguir los siguientes pasos para reproducir el entrenamiento y las métricas de 
 
 ### 1. Clonar el repositorio y acceder a la carpeta
 ```bash
-git clone [https://github.com/tu-usuario/hmda-mortgage-risk.git](https://github.com/tu-usuario/hmda-mortgage-risk.git)
+git clone https://github.com/JulianVargasJ/Proyecto-Final-Topicos-Rechazo-de-solicitudes-hipotecarias-en-Colorado.git
 cd Proyecto-Final-Topicos-Rechazo-de-solicitudes-hipotecarias-en-Colorado
 ```
-### 2. Abre una terminal desde esa carpeta
+### 2. Abre una terminal desde esa carpeta (Proyecto-Final-Topicos-Rechazo-de-solicitudes-hipotecarias-en-Colorado)
 
 ### 3. Crear y activar un entorno virtual
 ```bash
@@ -38,10 +38,19 @@ pip install -r requirements.txt
 ```
 
 ### 5. Descargar los datos
-Descarga `solicitudes_hmda.csv` e inserar en la carpeta `data/`.
+Usa el archivo `solicitudes_hmda.csv`, crea la carpeta `data/` insertar el archivo en la carpeta.
 
 ### 6. Ejecutar el pipeline completo
 ```bash
 python main.py
 ```
 Tablas se mostrarán de análisis estadístico en el CMD y los gráficos de resultados se guardarán en `outputs/`.*
+
+### IMPORTANTE
+```bash
+# Para cerrar el enviroment debes ejecutar este en el powershell
+deactivate
+```
+
+### Parar el código 
+Ctr + C
