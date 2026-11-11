@@ -1,5 +1,5 @@
 # Proyecto Final Topicos | Rechazo de Solicitudes Hipotecarias en Colorado
-Trabajo Final de Tópicos Aplicados en Estadística
+Trabajo Final de Tópicos Aplicados en Estadística\n
 Integrantes: Lucas González, Álvaro Morales, Celeste Romero y Julián Vargas
 
 ## Reproducibilidad del Proyecto
@@ -44,7 +44,7 @@ Usa el archivo `solicitudes_hmda.csv`, crea la carpeta `data/` insertar el archi
 ```bash
 python main.py
 ```
-Tablas se mostrarán de análisis estadístico en el CMD y los gráficos de resultados se guardarán en `outputs/`.*
+Tablas de análisis estadístico se mostrarán en el CMD y los gráficos de resultados se guardarán en `outputs/`.*
 
 ### IMPORTANTE
 ```bash
