@@ -1,14 +1,23 @@
-=============================
- GIT IGNORE ARCHIVOS DE DATOS 
-=============================
-
-
+# ========================
+# DATOS
+# ========================
+# Ignorar todo el contenido de la carpeta data para no subir el CSV pesado
 data/*
 !data/.gitkeep
 
+# ========================
+# ARTEFACTOS Y RESULTADOS
+# ========================
+# Ignorar salidas generadas automáticamente (imágenes y predicciones)
 outputs/*
 !outputs/.gitkeep
 
+# ========================
+# ENTORNO VIRTUAL
+# ========================
+venv/
+env/
+.venv/
 
 # ========================
 # PYTHON Y CACHÉ

@@ -11,7 +11,7 @@ Seguir los siguientes pasos para reproducir el entrenamiento y las métricas de 
 ### 1. Clonar el repositorio y acceder a la carpeta
 ```bash
 git clone [https://github.com/tu-usuario/hmda-mortgage-risk.git](https://github.com/tu-usuario/hmda-mortgage-risk.git)
-cd hmda-mortgage-risk
+cd Proyecto-Final-Topicos-Rechazo-de-solicitudes-hipotecarias-en-Colorado
 ```
 
 ### 2. Crear y activar un entorno virtual
