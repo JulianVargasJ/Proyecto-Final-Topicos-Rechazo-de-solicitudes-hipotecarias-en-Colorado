@@ -21,6 +21,7 @@ source venv/bin/activate
 
 # En Windows:
 python -m venv venv
+# Luego
 .\venv\Scripts\activate
 
 # Para solucionar este bloqueo de seguridad predeterminado en Windows PowerShell y activar tu entorno virtual, debes habilitar # la ejecución de scripts:
@@ -54,4 +55,4 @@ deactivate
 ```
 
 ### Parar el código 
-Ctr + C
+Ctrl + C
