@@ -2,4 +2,32 @@
  GIT IGNORE ARCHIVOS DE DATOS 
 =============================
 
-*.csv
+
+data/*
+!data/.gitkeep
+
+outputs/*
+!outputs/.gitkeep
+
+
+# ========================
+# PYTHON Y CACHÉ
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# ========================
+# JUPYTER NOTEBOOKS
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# SISTEMA OPERATIVO Y IDEs
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
